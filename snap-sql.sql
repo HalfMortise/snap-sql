@@ -9,7 +9,10 @@ DROP TABLE if EXISTS comment;
 CREATE TABLE comment (
 	commentId BINARY(16) NOT NULL,
 	commentDateTime TIMESTAMP(6),
-	commentText VARCHAR(128) NOT NULL
+	commentText VARCHAR(128) NOT NULL,
+
+	PRIMARY KEY(commentId)
+
 
 );
 
